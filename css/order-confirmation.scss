@@ -1,0 +1,105 @@
+$box-shadow : 0 2px 4px rgba(0,0,0,0.08);
+.edit-address{
+  font-family: Lato, sans-serif;
+  .checkout{
+    font-family: Lato, sans-serif;
+    padding: 3rem 5rem;
+    box-shadow: $box-shadow;
+    .card{
+      margin-bottom: 0.2rem;
+    }
+    .title{
+      font-family: Lato, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #0F1727;
+      margin-bottom: 0;
+    }
+    .quantity{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      h3{
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        span{
+          font-size: 12px;
+        }
+      }
+    }
+    .price{
+      span{
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF5050;
+      }
+    }
+    .hr-solid{
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+    .row-checkout{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        font-size: 14px;
+        line-height: 22px;
+        color: #5A5A5A;
+      }
+      span{
+        font:{
+          weight: bold;
+          size: 14px;
+        }
+        line-height: 44px;
+        text-align: right;
+        color: #1F2532;
+      }
+      h3{
+        font:{
+          weight: bold;
+          size: 14px;
+        }
+        line-height: 40px;
+        color: #000;
+        text-transform: uppercase;
+      }
+      h3.price{
+        color: #ff5050;
+        text-align: right;
+        font-size: 20px;
+        span{
+          color: #ff5050;
+        }
+      }
+    }
+    .state-checkout{
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      h2{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+      }
+      p{
+        line-height: 22px;
+        font-size: 14px;
+      }
+      p.success{
+        color: #5A5A5A;
+        strong{
+          color: #000;
+          a{
+            text-decoration: underline;
+            color: #000;
+          }
+        }
+      }
+      p.failed{
+        color: #FF50 50;
+      }
+    }
+  }
+
+
+}

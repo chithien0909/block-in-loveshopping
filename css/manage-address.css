@@ -1,0 +1,96 @@
+.manage-address {
+  font-family: Lato, sans-serif; }
+  .manage-address .account {
+    background: #fff;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: Lato,sans-serif;
+    margin-bottom: 2rem; }
+    .manage-address .account h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      text-transform: uppercase; }
+    .manage-address .account hr {
+      background: #000;
+      height: 1px;
+      width: 100%; }
+    .manage-address .account .menu-account {
+      font-size: 12px;
+      margin-left: -3rem;
+      list-style: none;
+      color: #000; }
+      .manage-address .account .menu-account .current {
+        font-weight: bold; }
+      .manage-address .account .menu-account li {
+        cursor: pointer;
+        line-height: 30px; }
+  .manage-address .address {
+    background: #FAFAFA;
+    margin-bottom: 1rem;
+    padding: 2rem; }
+    .manage-address .address h3 {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #000; }
+    .manage-address .address .address-info {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      background: #fff;
+      font-family: Lato, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 1rem;
+      margin-bottom: 2rem; }
+      .manage-address .address .address-info .address-info-content .full-name {
+        font-size: 14px;
+        font-weight: bold;
+        color: #000; }
+      .manage-address .address .address-info .address-info-content .phone, .manage-address .address .address-info .address-info-content .address-customer {
+        line-height: 22px;
+        font-size: 14px;
+        color: #5A5A5A; }
+      .manage-address .address .address-info .address-info-content .phone i {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 1px;
+        font-size: 8px;
+        vertical-align: middle; }
+      .manage-address .address .address-info .btn-add-address {
+        font-size: 14px; }
+        .manage-address .address .address-info .btn-add-address a {
+          color: #0080FF; }
+    .manage-address .address form {
+      position: relative; }
+      .manage-address .address form label {
+        line-height: 22px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #5A5A5A; }
+      .manage-address .address form .button-group {
+        display: flex;
+        justify-content: flex-end;
+        right: 0; }
+        .manage-address .address form .button-group > * {
+          margin-left: 0.2rem; }
+        .manage-address .address form .button-group .btn {
+          width: 93px;
+          height: 40px;
+          color: #5A5A5A;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bold; }
+        .manage-address .address form .button-group .btn-default {
+          border: none;
+          text-transform: uppercase; }
+        .manage-address .address form .button-group .btn-dark {
+          border: none;
+          background: #000;
+          color: #fff;
+          text-transform: uppercase; }
+
+/*# sourceMappingURL=manage-address.css.map */

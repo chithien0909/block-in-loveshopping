@@ -1,0 +1,292 @@
+$box-shadow : 0 2px 4px rgba(0,0,0,0.08);
+.edit-address{
+  font-family: Lato, sans-serif;
+  .address,.pay{
+    box-shadow: $box-shadow;
+    margin-bottom: 1rem;
+    padding: 2rem;
+  }
+  .address{
+    background: #fff;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: Lato,sans-serif;
+    margin-bottom: 2rem;
+    h3{
+      font: {
+        size: 14px;
+        weight: bold;
+      }
+      text:{
+        transform: uppercase;
+      }
+      color: #000;
+    }
+    .address-info{
+      font-family: Lato, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #8B8B8B;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      .address-info-content{
+        .full-name{
+          font-size: 14px;
+          font-weight: bold;
+          color: #000;
+        }
+        .phone, .address-customer{
+          line-height: 22px;
+          font-size: 14px;
+          color: #5A5A5A;
+        }
+        .phone{
+          i{
+            margin-left: 3px;
+            margin-right: 3px;
+            margin-bottom: 1px;
+            font-size: 8px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .btn-add-address{
+        font-size: 14px;
+        a{
+          color: #0080FF;
+        }
+      }
+    }
+    form{
+      position: relative;
+      label{
+        line-height: 22px;
+        font:{
+          size: 14px;
+          weight: normal;
+        }
+        color: #5A5A5A;
+      }
+      .button-group{
+        display: flex;
+        justify-content: flex-end;
+        right: 0;
+        >*{
+          margin-left: 0.2rem;
+        }
+        .btn{
+          width: 93px;
+          height: 40px;
+          color: #5A5A5A;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .btn-default{
+          border: none;
+          text-transform: uppercase;
+        }
+        .btn-dark{
+          border: none;
+          background: #000;
+          color: #fff;
+          text-transform: uppercase;
+
+        }
+      }
+    }
+  }
+  .pay{
+    font-family: Lato, sans-serif;
+    h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+      color: #000;
+    }
+    form{
+      label{
+        margin-left: 1rem;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      input[type='radio']{
+        display: none;
+      }
+      input[type='radio'] + label span{
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: #fff;
+        cursor: pointer;
+        border: 1px solid #8B8B8B;
+        border-radius: 50%;
+      }
+      input[type='radio']:checked + label span{
+        background: #000;
+      }
+    }
+  }
+  .sale{
+    font-family: Lato, sans-serif;
+    box-shadow: $box-shadow;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    .sale-content{
+      h3{
+        font-weight: bold;
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+      }
+      p{
+        strong{
+          a{
+            color: #000;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .sale-icon{
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span{
+        font-size: 6rem;
+        color: #ff5050;
+      }
+    }
+    .coupon{
+      width: 100%;
+      .input-coupon{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        input{
+          width: 70%;
+          outline: transparent;
+          border: none;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #f5f5f5;
+          padding-left: 1rem;
+        }
+        button{
+          width: 30%;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+          border: none;
+          background: #000;
+          color: white;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .checkout{
+    font-family: Lato, sans-serif;
+    padding: 3rem;
+    box-shadow: $box-shadow;
+    .card{
+      margin-bottom: 0.2rem;
+    }
+    .title{
+      font-family: Lato, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #0F1727;
+      margin-bottom: 0;
+    }
+    .quantity{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      h3{
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        span{
+          font-size: 12px;
+        }
+      }
+    }
+    .price{
+      span{
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF5050;
+      }
+    }
+    .hr-solid{
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+    .hr-dashed{
+      border-bottom: 2px dashed #8B8B8B;
+    }
+    .row-checkout{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        font-size: 14px;
+        line-height: 22px;
+        color: #5A5A5A;
+      }
+      span{
+        font:{
+          weight: bold;
+          size: 14px;
+        }
+        line-height: 44px;
+        text-align: right;
+        color: #1F2532;
+      }
+      h3{
+        font:{
+          weight: bold;
+          size: 14px;
+        }
+        line-height: 40px;
+        color: #000;
+        text-transform: uppercase;
+      }
+      h3.price{
+        color: #ff5050;
+        text-align: right;
+        font-size: 20px;
+        span{
+          color: #ff5050;
+        }
+      }
+    }
+    .btn-checkout{
+      button{
+        font:{
+          weight: bold;
+          size: 14px;
+        }
+        text:{
+          align: center;
+          transform: uppercase;
+        }
+        height: 40px;
+        width: 100%;
+        color: #fff;
+        background: #D8D8D8;
+        border: none;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+      }
+    }
+  }
+
+}

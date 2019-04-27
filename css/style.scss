@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Lato;
+    src: url('../font/Lato-Medium.ttf');
+}
+.d-flex-justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-0{
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+.d-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.uppercase{
+    text-transform: uppercase;
+}

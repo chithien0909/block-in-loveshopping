@@ -1,0 +1,130 @@
+$box-shadow : 0 2px 4px rgba(0,0,0,0.08);
+.manage-address{
+  font-family: Lato, sans-serif;
+  .account{
+    background: #fff;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: Lato,sans-serif;
+    margin-bottom: 2rem;
+    h2{
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      text-transform: uppercase;
+    }
+    hr{
+      background: #000;
+      height: 1px;
+      width: 100%;
+    }
+    .menu-account{
+      font-size: 12px;
+      margin-left: -3rem;
+      list-style: none;
+      color: #000;
+      .current{
+        font-weight: bold;
+      }
+      li{
+        cursor: pointer;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .address{
+    background: #FAFAFA;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    h3{
+      font: {
+        size: 14px;
+        weight: bold;
+      }
+      text:{
+        transform: uppercase;
+      }
+      color: #000;
+    }
+    .address-info{
+      box-shadow: $box-shadow;
+      background: #fff;
+      font-family: Lato, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      .address-info-content{
+        .full-name{
+          font-size: 14px;
+          font-weight: bold;
+          color: #000;
+        }
+        .phone, .address-customer{
+          line-height: 22px;
+          font-size: 14px;
+          color: #5A5A5A;
+        }
+        .phone{
+          i{
+            margin-left: 3px;
+            margin-right: 3px;
+            margin-bottom: 1px;
+            font-size: 8px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .btn-add-address{
+        font-size: 14px;
+        a{
+          color: #0080FF;
+        }
+      }
+    }
+    form{
+      position: relative;
+      label{
+        line-height: 22px;
+        font:{
+          size: 14px;
+          weight: normal;
+        }
+        color: #5A5A5A;
+      }
+      .button-group{
+        display: flex;
+        justify-content: flex-end;
+        right: 0;
+        >*{
+          margin-left: 0.2rem;
+        }
+        .btn{
+          width: 93px;
+          height: 40px;
+          color: #5A5A5A;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .btn-default{
+          border: none;
+          text-transform: uppercase;
+        }
+        .btn-dark{
+          border: none;
+          background: #000;
+          color: #fff;
+          text-transform: uppercase;
+
+        }
+      }
+    }
+  }
+
+}

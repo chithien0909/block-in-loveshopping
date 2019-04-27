@@ -1,0 +1,76 @@
+.edit-address {
+  font-family: Lato, sans-serif; }
+  .edit-address .checkout {
+    font-family: Lato, sans-serif;
+    padding: 3rem 5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
+    .edit-address .checkout .card {
+      margin-bottom: 0.2rem; }
+    .edit-address .checkout .title {
+      font-family: Lato, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #0F1727;
+      margin-bottom: 0; }
+    .edit-address .checkout .quantity {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .edit-address .checkout .quantity h3 {
+        font-family: Lato, sans-serif;
+        font-size: 12px; }
+        .edit-address .checkout .quantity h3 span {
+          font-size: 12px; }
+    .edit-address .checkout .price span {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF5050; }
+    .edit-address .checkout .hr-solid {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+    .edit-address .checkout .row-checkout {
+      display: flex;
+      justify-content: space-between; }
+      .edit-address .checkout .row-checkout h4 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #5A5A5A; }
+      .edit-address .checkout .row-checkout span {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 44px;
+        text-align: right;
+        color: #1F2532; }
+      .edit-address .checkout .row-checkout h3 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 40px;
+        color: #000;
+        text-transform: uppercase; }
+      .edit-address .checkout .row-checkout h3.price {
+        color: #ff5050;
+        text-align: right;
+        font-size: 20px; }
+        .edit-address .checkout .row-checkout h3.price span {
+          color: #ff5050; }
+    .edit-address .checkout .state-checkout {
+      font-family: 'Lato', sans-serif;
+      text-align: center; }
+      .edit-address .checkout .state-checkout h2 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000; }
+      .edit-address .checkout .state-checkout p {
+        line-height: 22px;
+        font-size: 14px; }
+      .edit-address .checkout .state-checkout p.success {
+        color: #5A5A5A; }
+        .edit-address .checkout .state-checkout p.success strong {
+          color: #000; }
+          .edit-address .checkout .state-checkout p.success strong a {
+            text-decoration: underline;
+            color: #000; }
+      .edit-address .checkout .state-checkout p.failed {
+        color: #FF50 50; }
+
+/*# sourceMappingURL=order-confirmation.css.map */

@@ -1,0 +1,213 @@
+.edit-address {
+  font-family: Lato, sans-serif; }
+  .edit-address .address, .edit-address .pay {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    padding: 2rem; }
+  .edit-address .address {
+    background: #fff;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: Lato,sans-serif;
+    margin-bottom: 2rem; }
+    .edit-address .address h3 {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #000; }
+    .edit-address .address .address-info {
+      font-family: Lato, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #8B8B8B;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 1rem;
+      margin-bottom: 2rem; }
+      .edit-address .address .address-info .address-info-content .full-name {
+        font-size: 14px;
+        font-weight: bold;
+        color: #000; }
+      .edit-address .address .address-info .address-info-content .phone, .edit-address .address .address-info .address-info-content .address-customer {
+        line-height: 22px;
+        font-size: 14px;
+        color: #5A5A5A; }
+      .edit-address .address .address-info .address-info-content .phone i {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 1px;
+        font-size: 8px;
+        vertical-align: middle; }
+      .edit-address .address .address-info .btn-add-address {
+        font-size: 14px; }
+        .edit-address .address .address-info .btn-add-address a {
+          color: #0080FF; }
+    .edit-address .address form {
+      position: relative; }
+      .edit-address .address form label {
+        line-height: 22px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #5A5A5A; }
+      .edit-address .address form .button-group {
+        display: flex;
+        justify-content: flex-end;
+        right: 0; }
+        .edit-address .address form .button-group > * {
+          margin-left: 0.2rem; }
+        .edit-address .address form .button-group .btn {
+          width: 93px;
+          height: 40px;
+          color: #5A5A5A;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bold; }
+        .edit-address .address form .button-group .btn-default {
+          border: none;
+          text-transform: uppercase; }
+        .edit-address .address form .button-group .btn-dark {
+          border: none;
+          background: #000;
+          color: #fff;
+          text-transform: uppercase; }
+  .edit-address .pay {
+    font-family: Lato, sans-serif; }
+    .edit-address .pay h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+      color: #000; }
+    .edit-address .pay form label {
+      margin-left: 1rem;
+      font-size: 14px;
+      font-weight: bold; }
+    .edit-address .pay form input[type='radio'] {
+      display: none; }
+    .edit-address .pay form input[type='radio'] + label span {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: -2px 10px 0 0;
+      vertical-align: middle;
+      background: #fff;
+      cursor: pointer;
+      border: 1px solid #8B8B8B;
+      border-radius: 50%; }
+    .edit-address .pay form input[type='radio']:checked + label span {
+      background: #000; }
+  .edit-address .sale {
+    font-family: Lato, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    padding: 3rem;
+    margin-bottom: 1rem; }
+    .edit-address .sale .sale-content h3 {
+      font-weight: bold;
+      font-size: 14px;
+      color: #000;
+      text-transform: uppercase; }
+    .edit-address .sale .sale-content p strong a {
+      color: #000;
+      text-decoration: underline; }
+    .edit-address .sale .sale-icon {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .edit-address .sale .sale-icon span {
+        font-size: 6rem;
+        color: #ff5050; }
+    .edit-address .sale .coupon {
+      width: 100%; }
+      .edit-address .sale .coupon .input-coupon {
+        display: flex;
+        justify-content: space-between;
+        height: 40px; }
+        .edit-address .sale .coupon .input-coupon input {
+          width: 70%;
+          outline: transparent;
+          border: none;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          background: #f5f5f5;
+          padding-left: 1rem; }
+        .edit-address .sale .coupon .input-coupon button {
+          width: 30%;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+          border: none;
+          background: #000;
+          color: white;
+          text-transform: uppercase; }
+  .edit-address .checkout {
+    font-family: Lato, sans-serif;
+    padding: 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); }
+    .edit-address .checkout .card {
+      margin-bottom: 0.2rem; }
+    .edit-address .checkout .title {
+      font-family: Lato, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #0F1727;
+      margin-bottom: 0; }
+    .edit-address .checkout .quantity {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .edit-address .checkout .quantity h3 {
+        font-family: Lato, sans-serif;
+        font-size: 12px; }
+        .edit-address .checkout .quantity h3 span {
+          font-size: 12px; }
+    .edit-address .checkout .price span {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF5050; }
+    .edit-address .checkout .hr-solid {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+    .edit-address .checkout .hr-dashed {
+      border-bottom: 2px dashed #8B8B8B; }
+    .edit-address .checkout .row-checkout {
+      display: flex;
+      justify-content: space-between; }
+      .edit-address .checkout .row-checkout h4 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #5A5A5A; }
+      .edit-address .checkout .row-checkout span {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 44px;
+        text-align: right;
+        color: #1F2532; }
+      .edit-address .checkout .row-checkout h3 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 40px;
+        color: #000;
+        text-transform: uppercase; }
+      .edit-address .checkout .row-checkout h3.price {
+        color: #ff5050;
+        text-align: right;
+        font-size: 20px; }
+        .edit-address .checkout .row-checkout h3.price span {
+          color: #ff5050; }
+    .edit-address .checkout .btn-checkout button {
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      height: 40px;
+      width: 100%;
+      color: #fff;
+      background: #D8D8D8;
+      border: none;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px; }
+
+/*# sourceMappingURL=edit-address.css.map */

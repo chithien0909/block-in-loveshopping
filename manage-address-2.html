@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Love shopping</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--Custom bootstrap-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/manage-address.css">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="manage-address">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <nav class="account">
+                    <h2>Tài khoản</h2>
+                    <hr/>
+                    <ul class="menu-account">
+                        <li>Lịch sử đơn hàng</li>
+                        <li>Danh sách yêu thích</li>
+                        <li>Đổi mật khẩu</li>
+                        <li>Đổi thông tin</li>
+                        <li class="current">Địa chỉ giao hàng</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-8">
+                <div class="col-lg-12">
+                    <div class="address">
+                        <h3>Địa chỉ nhận hàng</h3>
+                        <div class="address-info">
+                            <div class="address-info-content">
+                                <span class="full-name">Nguyen Van A</span>
+                                <span class="phone"><i class="fa fa-circle" aria-hidden="true"></i>0987 128 182</span>
+                                <p class="address-customer">126 Pham Ngoc Thanh, Phuong 4, Quan 3, TPHCM</p>
+                            </div>
+                            <div class="action">
+                                <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h3>Địa chỉ nhận hàng</h3>
+                        <form action="/" method="POST">
+                            <div class="form-group">
+                                <label for="full_name">Full name:</label>
+                                <input class="form-control" id='full_name' type="text" name="full_name" placeholder="e.g.NGUYEN VAN A">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Số điện thoại:</label>
+                                <input class="form-control" id='phone' type="text" name="full_name" placeholder="e.g.NGUYEN VAN A">
+                            </div>
+                            <div class="form-group">
+                                <label for="provine_city">Tỉnh/ Thành Phố:</label>
+                                <input class="form-control" id='provine_city' type="text" name="full_name" placeholder="e.g.NGUYEN VAN A">
+                            </div>
+                            <div class="form-group">
+                                <label for="apartment number">Số nhà, tên đường</label>
+                                <input class="form-control" id='apartment number' type="text" name="full_name" placeholder="e.g: 16 pham ngoc thach">
+                            </div>
+                            <div class="button-group">
+                                <button class="btn btn-default" type="submit">Hủy</button>
+                                <button class="btn btn-dark" type="submit">Lưu</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
